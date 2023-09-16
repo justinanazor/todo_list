@@ -1,2 +1,2 @@
 # todo_list
-A todo lisit website project - Oluwateru Olakunle 
+A todo lisit webapp project - Oluwateru Olakunle 
