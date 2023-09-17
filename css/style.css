@@ -1,0 +1,12 @@
+footer {
+    font-family: Inter, sans-serif;
+}
+
+.lks {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.foot_logo {
+    margin-bottom: -10px;
+}
