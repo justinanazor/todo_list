@@ -18,6 +18,10 @@
 </head>
 
 <body>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9ec8ea7e34927a3751bff5c9d743d72e44266203
     <header>
         <div class="container">
             <div class="row">
@@ -78,6 +82,13 @@
             </div>
         </div>
     </main>
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 9ec8ea7e34927a3751bff5c9d743d72e44266203
     <!-- Bootstrap local Js -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- Bootstrap online Js -->
