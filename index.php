@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/13d098a0cf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
+    <!-- <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap local css -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <!-- Bootstrap online js  -->
@@ -16,7 +18,7 @@
 </head>
 
 <body>
-    <div class="col-md-12 bg-danger text-white">testing bootstrap</div>
+    <div class="col-md-12 bg-danger text-white">testing bootstrap</div> <?php include_once("footer.php"); ?>
     <!-- Bootstrap local Js -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- Bootstrap online Js -->
