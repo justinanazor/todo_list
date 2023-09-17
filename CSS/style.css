@@ -5,19 +5,32 @@
     box-sizing: border-box;
 }
 
+footer {
+    font-family: Inter, sans-serif;
+}
+
+footer {
+    margin-top: 10%;
+    font-size: 12px;
+}
+
+.foot_logo {
+    margin-bottom: -10px;
+}
+
 body {
     background: linear-gradient(to bottom,
             rgb(2, 161, 182),
             rgb(3, 179, 203),
             rgb(0, 184, 209),
-            rgb(1, 185, 210),
-            rgb(0, 184, 209),
             rgb(1, 154, 175),
+            rgb(1, 154, 175),
+            rgb(1, 140, 160),
             rgb(2, 133, 151),
             rgb(2, 88, 98),
             rgb(0, 76, 83),
             rgb(1, 46, 47));
-    height: 100vh;
+    height: max-content;
 }
 
 .teru_to_do {

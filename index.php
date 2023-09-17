@@ -60,7 +60,7 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-1"></div>
 
-                <div class="col-md-5 mt-4">
+                <div class="col-md-5 mt-lg-4">
                     <a class="btn btn-light my-2 my-sm-0" id="task">Task<span class="badge"><svg width="19" height="18"
                                 viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVG" clip-path="url(#clip0_1_625)">
@@ -97,7 +97,9 @@
         </div>
     </main>
 
-
+<footer>
+    <?php include_once 'footer.php' ?>
+</footer>
 
 
     <!-- Bootstrap local Js -->
