@@ -1,5 +1,5 @@
 <footer>
-    <div class="bg-black text-white pb-3 pt-5">
+    <div class="bg-black text-white pb-3 pt-5 fixed-bottom">
         <div class="container">
             <div class="row">
                 <div class="col text-center foot_logo">

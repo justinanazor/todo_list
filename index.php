@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList | Home</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
     <script src="https://kit.fontawesome.com/13d098a0cf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
@@ -18,6 +19,16 @@
 </head>
 
 <body>
+     <!-- ... Your existing HTML content ... -->
+
+    <!-- Display error messages if they exist -->
+    <?php
+    session_start();
+    if (isset($_SESSION['error_message'])) {
+        echo '<div class="alert alert-danger mt-3">' . $_SESSION['error_message'] . '</div>';
+        unset($_SESSION['error_message']); // Clear the error message
+    }
+    ?>
 
     <header>
         <div class="container">
@@ -25,8 +36,8 @@
                 <div class="col-md-2 mt-4"><a href="#" class="teru_to_do">Teru To-Do</a></div>
                 <div class="col-md-10 text-end mt-5">
                     <span class="contact_sales">Contact Sales</span>
-                    <button class="btn btn-success my-2 my-sm-0" id="login_btn" type="submit">log in</button>
-                    <button class="btn btn-light my-2 my-sm-0" id="signup_btn" type="submit">sign up</button>
+                    <button class="btn btn-success my-2 my-sm-0" id="login_btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">log in</button>
+                    <button class="btn btn-light my-2 my-sm-0" id="signup_btn" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">sign up</button>
                 </div>
             </div>
         </div>
@@ -51,7 +62,7 @@
                         porttitor nisl praesent. Cursus cras est pellentesque phasellus egestas massa. Pharetra ut
                         sociis erat magnis nisi justo nunc lectus egestas.
                     </p>
-                    <a class="btn btn-success my-2 my-sm-0" id="get_started">Get started</a>
+                    <a class="btn btn-success my-2 my-sm-0" id="get_started" data-bs-toggle="modal" data-bs-target="#exampleModal">Get started</a>
                     <ul class="txt">
                         <li>FREE FOREVER.</li>
                         <li>NO CREDIT CARD</li>
@@ -98,16 +109,24 @@
             </div>
         </div>
     </main>
+    <?php include_once "signup.php" ?>
+    <?php include_once "signin.php" ?>
+  
 
+<footer>
+    <?php include_once "footer.php" ?>
+</footer>
 
-
-
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap local Js -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- Bootstrap online Js -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"> -->
     </script>
+    <!-- javascript local -->
+    <script src="javascript/js.js"></script>
 </body>
 
 </html>
