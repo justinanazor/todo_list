@@ -10,14 +10,16 @@
                             <div class="col-md-12">
                                 <div class="mb-3">
                                     <form action="register.php" method="POST"> <!-- Step 1 & 2 -->
-                                        <p class="m-0">Full name</p>
-                                        <input name="username" class="form-control me-1" type="text" placeholder="Jhon Doe" aria-label="text" required>
-                                        
-                                        <p class="m-0">Email</p>
-                                        <input name="email" class="form-control me-2" type="email" placeholder="example@site.com" aria-label="Email" required>
-                                        
+                                        <div>
+                                            <p class="m-0">Full name</p>
+                                            <input name="username" class="form-control me-1" type="text" placeholder="Jhon Doe" aria-label="text" required>
+                                        </div>
+                                        <div>
+                                            <p class="m-0">Email</p>
+                                            <input name="email" class="form-control me-2" type="email" placeholder="example@site.com" aria-label="Email" required>
+                                        </div>
                                         <div class="mb-3">
-                                            <label for="inputPassword6" class="form-label">Choose Password</label>
+                                            <label for="inputPassword6" class="form-label m-0">Choose Password</label>
                                             <input name="password" type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpBlock" required>
                                         </div>
                                         
