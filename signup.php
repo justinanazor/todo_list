@@ -10,10 +10,10 @@
                             <div class="col-md-12">
                                 <div class="mb-3">
                                     <form action="register.php" method="POST"> <!-- Step 1 & 2 -->
-                                        <p>Full name</p>
+                                        <p class="m-0">Full name</p>
                                         <input name="username" class="form-control me-1" type="text" placeholder="Jhon Doe" aria-label="text" required>
                                         
-                                        <p>Email</p>
+                                        <p class="m-0">Email</p>
                                         <input name="email" class="form-control me-2" type="email" placeholder="example@site.com" aria-label="Email" required>
                                         
                                         <div class="mb-3">

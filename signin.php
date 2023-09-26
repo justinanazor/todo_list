@@ -9,13 +9,13 @@
           <form action="login.php" method="POST"> <!-- Form submits to login.php -->
             <div class="row">
               <div class="col-md-12">
-                <p>Email</p>
+                <p class="m-0">Email</p>
                 <input name="email" class="form-control me-2" type="email" placeholder="example@site.com" aria-label="Email" required>
               </div>
             </div>
             <div class="col-md-12">
               <div class="mb-3">
-                <label for="inputPassword6" class="form-label">Password</label>
+                <label for="inputPassword6" class="form-label m-0">Password</label>
                 <input name="password" type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpBlock" required>
               </div>
             </div>
