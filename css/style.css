@@ -18,12 +18,6 @@ footer {
     margin-bottom: -10px;
 }
 
-.foot_logo h2 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: -4px;
-}
-
 body {
     background: linear-gradient(to bottom,
             rgb(2, 161, 182),

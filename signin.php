@@ -26,7 +26,7 @@
             </div>
           </form>
         </div>
-        <div class="text-center">Don't have an account? <b data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Sign Up</b></div>
+        <div class="text-center">Don't have an account? <b data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</b></div>
       </div>
       <div class="modal-footer text-center">
         <p class="form_txt" style="padding-right: 30px;">By clicking this button you agree to our terms of service and privacy policies</p>
