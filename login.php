@@ -31,7 +31,7 @@ if (isset($_POST['login'])) {
         // Verify the password
         if (password_verify($password, $row['password'])) {
             // Login successful
-            $_SESSION['user_id'] = $row['user_id']; // You can store user data in the session
+            $_SESSION['username'] = $row['username']; // You can store user data in the session
             header("Location: home.php"); // Redirect to the dashboard or another page
             exit();
         } else {

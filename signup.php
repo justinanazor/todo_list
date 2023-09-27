@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center">Already playing with Teru? <b data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Login</b></div>
+                        <div class="text-center links">Already playing with Teru? <b data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Login</b></div>
                     </div>
                     <div class="modal-footer text-center">
                         <p class="form_txt" style="padding-right: 30px;">By clicking this button, you have agreed to our terms of service and privacy policies</p>

@@ -6,19 +6,17 @@
                     <h2><strong>Teru To-Do</strong></h2>
                 </div>
             </div>
-        </div>
-        <div class="container">
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 ">
                     <span style="font-size:14px;"> Need Help? Call: 0706995463 </span>
                 </div>
-                <div class="col-md-4 text-center lks">
+                <div class="col-md-4 text-center" style="cursor:pointer;">
                     <span>© 2023 Teru To-Do |</span>
                     <span>Security |</span>
                     <span>Your Privacy |</span>
                     <span>Terms</span>
                 </div>
-                <div class="col-md-4 text-center" style="cursor:pointer;">
+                <div class="col-md-4 text-end" style="cursor:pointer;">
                     <i class="fa-brands fa-linkedin fa-xl mx-1" style="color: white;"></i>
                     <i class="fa-brands fa-square-facebook fa-xl mx-2" style="color: white;"></i>
                     <i class="fa-brands fa-instagram fa-xl mx-1" style="color: white;"></i>

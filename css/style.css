@@ -5,23 +5,6 @@
     box-sizing: border-box;
 }
 
-footer {
-    font-family: Inter, sans-serif;
-}
-footer {
-    font-size: 12px;
-}
-
-.foot_logo {
-    margin-bottom: -10px;
-}
-
-.foot_logo h2 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: -4px;
-}
-
 body {
     background: linear-gradient(to bottom,
             rgb(2, 161, 182),
@@ -168,6 +151,7 @@ body {
     font-weight: 500;
     line-height: 178.571%;
 }
+
 #playwithteru_btn {
     width: 330.44px;
     height: 42.59px;
@@ -182,6 +166,7 @@ body {
     line-height: 150%;
     margin-right: 1%;
 }
+
 .form_txt {
     color: #000;
     font-family: Inter;
@@ -189,4 +174,8 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
+}
+
+.links {
+    cursor: pointer;
 }
